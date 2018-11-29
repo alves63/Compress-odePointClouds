@@ -1,0 +1,6 @@
+
+function Octree = CreateOctree()
+
+Octree = struct('child',[] ,...
+               'voxel',[],...
+               'dimensions',[]);
